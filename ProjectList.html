@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Projects</title>
+    <style>
+        /* Base Reset and Typography */
+   /* Base Reset */
+/* Base Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    padding: 3rem 1rem;
+}
+
+/* Main Container */
+.resume-section {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #333333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.project-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.project-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222222;
+}
+
+.project-meta {
+    font-size: 0.85rem;
+    color: #666666;
+    font-weight: 600;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #444444;
+    margin-bottom: 1.25rem;
+}
+
+.project-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #dee2e6;
+}
+
+.project-links {
+    margin-top: auto;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-item:hover {
+    text-decoration: underline;
+    color: #003d82;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .resume-section {
+        padding: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .project-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <section class="resume-section">
+        <h2 class="section-title"> Web Development Projects </h2>
+        <h2 class> <a href="Portfolio&Credentials.html" style="color: #0056b3; text-decoration: none;">Go Back</a> </h2>
+	<br>
+        
+        <div class="project-grid">
+            
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 class="project-name">AES Literacy Institute</h3>
+                    <span class="project-meta">2025-2026</span>
+                </div>
+                <p class="project-description">
+                    Webpage drafted variations for the AES Literacy Institute (ALI) nonprofit organization based in Dallas, Texas. Their mission is to empower underprivileged adults and youth by providing access to education, career training, and financial literacy. 
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+
+                </div>
+                <div class="project-links">
+		    <a href="https://childofjeshua.github.io/AES/index.html" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionOne </a>
+                    <a href="https://childofjeshua.github.io/AES_VariationTwo/index.html" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionTwo </a>
+                    <a href="#" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionThree </a>
+                    <a href="#" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionFour </a>
+                    <a href="#" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionFive </a>
+                    <a href="#" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionSix </a>
+                    <a href="#" class="link-item" target="_blank" rel="noopener noreferrer"> AES_VersionSeven </a>
+
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+</body>
+</html>
