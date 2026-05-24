@@ -124,24 +124,39 @@ body {
     color: #003d82;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
+/* Responsive: Tablet and smaller (up to 768px) */
+@media (max-width: 768px) {
     .resume-section {
-        padding: 1.5rem;
+        padding: 2rem 1.5rem;
     }
-    
+
     .section-title {
         font-size: 1.5rem;
+        margin-bottom: 1.5rem;
     }
-    
+
+    .project-card {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
     .project-header {
         flex-direction: column;
         align-items: flex-start;
+        gap: 0.25rem;
     }
-    
+
+    .project-name {
+        font-size: 1.2rem;
+    }
+
     .project-links {
         flex-direction: column;
-        gap: 0.75rem;
+        gap: 0.5rem;
+    }
+
+    .link-item {
+        width: fit-content;
     }
 }
     </style>
@@ -150,7 +165,7 @@ body {
 
     <section class="resume-section">
         <h2 class="section-title"> Personal Portfolio & Credentials</h2>
-        <h2 class> Name: Arinze Okeke | Email: <a href="mailto:arinzeokeke2359@gmail.com" style="color: #0056b3; text-decoration: none;">arinzeokeke2359@gmail.com</a> </h2>
+        <h4>Name: <span style="color: #0056b3;">Arinze Okeke</span> | Email: <a href="mailto:arinzeokeke2359@outlook.com" style="color: #0056b3; text-decoration: none;">arinzeokeke2359@outlook.com</a> | Github: <a href="https://github.com/ChildOfJeshua" style="color: #0056b3; text-decoration: none;"> github.com/ChildOfJeshua </a></h4>
 	<br>
         
         <div class="project-grid">
@@ -221,11 +236,12 @@ body {
                 <div class="project-links">
                     <a href="https://drive.google.com/file/d/1ITKEY3wed6kPY1x8WYhpMBYaZBVVR-g0/view?usp=sharing" class="link-item" target="_blank" rel="noopener noreferrer">NVC Current Transcript</a> 
                     <a href="https://drive.google.com/file/d/16ds7-2AAVDWqow5d6qZcM7YI9ZOqvkWB/view?usp=sharing" class="link-item" target="_blank" rel="noopener noreferrer">PGCC A.A. Degree</a>
+	            <a href="https://drive.google.com/file/d/1vb4e27D8Bs9Hg5PG0MOuV_o9ogAydCRF/view?usp=sharing	" class="link-item" target="_blank" rel="noopener noreferrer">High School Transcript</a>
+
                 </div>
             </article>
 
-
-            <!-- Project 3 -->
+            <!-- Project 4 -->
             <article class="project-card">
                 <div class="project-header">
                     <h3 class="project-name">Certifications</h3>
@@ -248,6 +264,28 @@ body {
                     <a href="https://drive.google.com/file/d/1n_ZJUoib3Zf18gI83LaYgIjxGwJ_KH4O/view?usp=sharing" class="link-item" target="_blank" rel="noopener noreferrer">CyberSecurity Certificate</a>
                     <a href="https://drive.google.com/file/d/1Kx6axRdU8nV-daApMpJzWCQsmxBM26uP/view?usp=sharing" class="link-item" target="_blank" rel="noopener noreferrer">IT Support Certificate</a>
                     <a href="https://drive.google.com/file/d/1aXEAW9LmXhPWEParQ04G_akhkCQlHAhA/view?usp=sharing" class="link-item" target="_blank" rel="noopener noreferrer">Adobe Marketing Specialist  Certificate</a>
+                </div>
+            </article>
+
+
+            <!-- Project 5 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <h3 class="project-name">Research & Analysis</h3>
+                    <span class="project-meta">2020-current</span>
+                </div>
+                <p class="project-description">
+                    Projects covering topics within the STEM field of Science, Technology, Engineering and Mathematics.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Science</span>
+                    <span class="tag">Technology</span>
+                    <span class="tag">Engineering</span>
+                    <span class="tag">Mathematics</span>
+
+                </div>
+                <div class="project-links">
+                    <a href="https://docs.google.com/document/d/1i1aBNAFAUh2rlOP-uDUuOlWf8AzcF0FHDEFqFYq94Y8/edit?tab=t.0" class="link-item" target="_blank" rel="noopener noreferrer"> AP Capstone Literature Review</a>
                 </div>
             </article>
 
